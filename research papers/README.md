@@ -7,3 +7,5 @@ Some potentially useful links:
 4) https://ieeexplore.ieee.org/document/7337041 (scihub ftw)
 5) https://link.springer.com/article/10.1007/s10846-020-01151-x (scihub ftw)
 6) https://www.hindawi.com/journals/ijae/2021/8819618/
+7) https://journals.sagepub.com/doi/10.1177/0020294019847704
+8) https://www.diva-portal.org/smash/get/diva2:1457693/FULLTEXT01.pdf
