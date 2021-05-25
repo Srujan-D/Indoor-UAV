@@ -9,3 +9,9 @@ Some potentially useful links:
 6) https://www.hindawi.com/journals/ijae/2021/8819618/
 7) https://journals.sagepub.com/doi/10.1177/0020294019847704
 8) https://www.diva-portal.org/smash/get/diva2:1457693/FULLTEXT01.pdf
+9) https://core.ac.uk/download/pdf/159128097.pdf
+10) https://etd.ohiolink.edu/apexprod/rws_etd/send_file/send?accession=toledo1417345596&disposition=inline
+11) https://researchrepository.wvu.edu/cgi/viewcontent.cgi?article=6354&context=etd
+12) https://arxiv.org/pdf/1907.01531.pdf
+13) https://towardsdatascience.com/lets-be-a-learn-and-code-a-path-planning-algorithm-to-fly-a-drone-4d5b566fa1ae
+14) http://www.seas.ucla.edu/coopcontrol/papers/02cn04.pdf
