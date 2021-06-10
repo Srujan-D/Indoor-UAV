@@ -8,3 +8,5 @@ FASTPlanner seems to be very famous. But will need to think of some modification
 In gen planning sathi: http://lavalle.pl/planning/bookbig.pdf
 
 Can think about researching [LazySP](https://www.youtube.com/watch?v=adrVlZegiR0).
+
+Seems really interesting. http://www.sanjibanchoudhury.com/publications/docs/thesis/thesis.pdf
