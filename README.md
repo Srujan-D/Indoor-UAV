@@ -9,4 +9,4 @@ In gen planning sathi: http://lavalle.pl/planning/bookbig.pdf
 
 Can think about researching [LazySP](https://www.youtube.com/watch?v=adrVlZegiR0).
 
-Seems really interesting. http://www.sanjibanchoudhury.com/publications/docs/thesis/thesis.pdf
+Seems really interesting. http://www.sanjibanchoudhury.com/publications/docs/thesis/thesis.pdf yaar kafi sahi thesis he ye
