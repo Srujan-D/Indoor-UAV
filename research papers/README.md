@@ -15,3 +15,10 @@ Some potentially useful links:
 12) https://arxiv.org/pdf/1907.01531.pdf
 13) https://towardsdatascience.com/lets-be-a-learn-and-code-a-path-planning-algorithm-to-fly-a-drone-4d5b566fa1ae
 14) http://www.seas.ucla.edu/coopcontrol/papers/02cn04.pdf
+15) https://acadpubl.eu/jsi/2017-116-23-24/articles/24/28.pdf
+16) https://jwcn-eurasipjournals.springeropen.com/articles/10.1186/s13638-019-1396-2
+17) https://www.researchgate.net/publication/338644159_Dynamic_Obstacle_Avoidance_for_UAVs_Using_a_Fast_Trajectory_Planning_Approach
+18) https://www.ais.uni-bonn.de/papers/JINT_2015_Nieuwenhuisen.pdf
+19) https://www.ais.uni-bonn.de/papers/ROS_Book_Beul_2017.pdf
+20) https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9108245
+21) https://scholarsarchive.byu.edu/cgi/viewcontent.cgi?article=2533&context=facpub
