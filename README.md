@@ -1,15 +1,5 @@
 # Indoor-UAV
-Repo for the indoor UAV project for warehouse inventory management. The project is supervised by Mr Kaushal Kishore of the Intelligent Systems Group at CSIR-CEERI Pilani.
 
-I will be working on the local planning problem so that the UAV can be enabled to navigate in an evironment containing dynamic obstacles.
+A modified iris drone with an Intel Realsense camera is used. It can be launched in the warehouse world by running the ```roslaunch px4 mavros_posix_sitl_ceeri.launch``` cmd in one terminal. 
 
-FASTPlanner seems to be very famous. But will need to think of some modifications or something new. Basically 4 mahine kaam karaychay tar kahitari pahije...
-
-In gen planning sathi: http://lavalle.pl/planning/bookbig.pdf
-
-Can think about researching [LazySP](https://www.youtube.com/watch?v=adrVlZegiR0).
-
-Seems really interesting. http://www.sanjibanchoudhury.com/publications/docs/thesis/thesis.pdf yaar kafi sahi thesis he ye
-
-Updates:
-Meet on 23rd June: Sir asked me to make my own warehouse world for using later.
+The controller and the commander can be launched by running the ```roslaunch indoor_uav drone_nodes.launch``` cmd in another terminal. After that, follow the instructions seen in the terminal for inputting the required key. The effects of the commander on the drone can be seen in the Gazebo.
