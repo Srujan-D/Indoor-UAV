@@ -1,0 +1,4 @@
+<launch>
+    <node name="commander_node" pkg="indoor_uav" type="commander.py" output="screen" />
+    <node name="controller_node" pkg="indoor_uav" type="controller.py" output="screen"/>
+</launch>

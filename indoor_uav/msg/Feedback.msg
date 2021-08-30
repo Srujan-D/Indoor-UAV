@@ -1,0 +1,2 @@
+int64 quad_current
+int64 reach_current

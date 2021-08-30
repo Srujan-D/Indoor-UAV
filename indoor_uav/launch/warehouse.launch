@@ -1,0 +1,33 @@
+<launch>
+  <arg name="debug" default="false"/>
+	<arg name="gui" default="true"/>
+	<arg name="pause" default="false"/>
+	<arg name="world" value="$(find indoor_uav)/worlds/warehouse.world"/>
+  <arg name="vehicle" default="iris_rs"/>
+  <arg name="sdf" default="$(find indoor_uav)/models/$(arg vehicle)/$(arg vehicle).sdf"/>
+  <arg name="x_pos" default="0.0"/>
+  <arg name="y_pos" default="0.0"/>
+  <arg name="z_pos" default="0.0"/>
+  <arg name="R" default="0"/>
+  <arg name="P" default="0"/>
+  <arg name="Y" default="0"/>
+
+    <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+      <arg name="world_name" value="$(arg world)"/>
+      <!-- more default parameters can be changed here -->
+    <arg name="paused" value="false"/>
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui" value="true"/>
+    <arg name="recording" value="false"/>
+    <arg name="debug" value="false"/>
+    </include>
+    
+  <param name="robot_description" textfile="$(find indoor_uav)/models/$(arg vehicle)/$(arg vehicle).sdf" />
+
+  <node name="iris_rs_warehouse" pkg="gazebo_ros" type="spawn_model" output="screen" args="-sdf -model iris_r200 -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -param robot_description" />
+  <!-- <node name="$(anon vehicle_spawn)" pkg="gazebo_ros" type="spawn_model" output="screen" args="-sdf -file $(arg sdf) -model $(arg vehicle) -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -R $(arg R) -P $(arg P) -Y $(arg Y)"/> -->
+
+  <node name="commander_node" pkg="indoor_uav" type="commander.py"/>
+  <node name="controller_node" pkg="indoor_uav" type="controller.py"/>
+</launch>

@@ -1,0 +1,2 @@
+int64 total_length
+int64 current_node
